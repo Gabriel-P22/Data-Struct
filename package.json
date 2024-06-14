@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:array": "node Arrays/array.js"
+    "start:array": "node Arrays/array.js",
+    "start:exercise:array:1": "node Arrays/exercise/array-1.js"
   },
   "repository": {
     "type": "git",
