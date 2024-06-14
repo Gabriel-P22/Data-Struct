@@ -54,3 +54,10 @@ function listarLivros(pilha) {
          return `Livro ${index + 1}: ${element}`;
     }).join(", ");
 }
+
+// 1) Create the array and remove the middle value. If the dosent has middle, remove the bigger element.
+// 2) Create the array and remove the middle value. If the dosent has middle, remove the smaller element.
+//3) Create the bidimensional array and show the bigger value;
+//4) Create the bidimensional array and show the smaller value;
+//5) Create the tridimensional array and show the middle value;
+//6) Create the tridimensional array and show the smaller value;

@@ -67,3 +67,56 @@ dataArray[3] = [];
 // }
 
 // console.log(numbersP);
+
+// bideimensional array
+
+// var avgTempWeek = []
+
+// var avgTempWeek1 = [33, 31, 35, 37, 34, 31, 32];
+// var avgTempWeek2 = [34, 33, 32, 36, 37, 39, 40];
+
+// avgTempWeek.push(avgTempWeek1)
+// avgTempWeek.push(avgTempWeek2)
+
+// console.log(avgTempWeek1[1][2]);
+
+// for (var i = 0; i < avgTempWeek.length; i++) {
+//     for (var j = 0; j < avgTempWeek[i].length; j++) {
+//         console.log(avgTempWeek[i][j]);
+//     }
+// }
+
+
+// tridimensional array
+// In this case, we have a array with two arrays, and each array has two arrays.
+// month[firstWeek[avgTempWeek1, avgTempWeek2], lastWeek[avgTempWeek3, avgTempWeek4]]
+var month = []
+
+var firstWeeks = [];
+var lastWeeks = [];
+
+var avgTempWeek1 = [33, 31, 35, 37, 34, 31, 32];
+var avgTempWeek2 = [34, 33, 32, 36, 37, 39, 40];
+
+var avgTempWeek3 = [33, 31, 35, 37, 34, 31, 32];
+var avgTempWeek4 = [34, 33, 32, 36, 37, 39, 40];
+
+avgTempWeek1.push(avgTempWeek1)
+avgTempWeek1.push(avgTempWeek2)
+
+lastWeeks.push(avgTempWeek3)
+lastWeeks.push(avgTempWeek4)
+
+month.push(firstWeeks)
+month.push(lastWeeks)
+
+console.log(month[1][1][1]);
+
+// In  this case, we running the array to show all positions.
+for(var x = 0; x < month.length; x++) {
+    for (var b = 0; b < month[x].length; b++) {
+        for(i = 0; i < month[x][b].length; i++) {
+            console.log(month[x][b][i]);
+        }
+    }
+}
