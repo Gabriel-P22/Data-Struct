@@ -55,13 +55,15 @@ dataArray[3] = [];
 
 //Exemplo to remove a element in array inside a for loop. 
 // the splice method remove the element in array, and the second parameter is the number of elements to remove.
-var numbersP = [1, 2, 3];
+// var numbersP = [1, 2, 3];
 
-for (i = 0; i < numbersP.length; i++) {
-    if (numbersP[i] === 2) {
-        numbersP.splice(i, 1);
-        i--;
-    }
-}
+// for (i = 0; i < numbersP.length; i++) {
+//     if (numbersP[i] === 2) {
+//         numbersP.splice(i, 1);
+        // We need decrese the index to not skip the element in array.
+        // You remove the element in array and in the index.
+//         i--;
+//     }
+// }
 
-console.log(numbersP);
+// console.log(numbersP);
