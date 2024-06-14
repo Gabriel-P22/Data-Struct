@@ -1,0 +1,21 @@
+{
+  "name": "DataStruct",
+  "version": "1.0.0",
+  "description": "I Will separate in modules:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:array": "node Arrays/array.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriel-P22/Data-Struct.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabriel-P22/Data-Struct/issues"
+  },
+  "homepage": "https://github.com/Gabriel-P22/Data-Struct#readme"
+}
