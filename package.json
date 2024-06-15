@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:array": "node Arrays/array.js",
+    "start:stack": "node Stack/index.js",
     "start:exercise:array:1": "node Arrays/exercise/array-1.js"
   },
   "repository": {
