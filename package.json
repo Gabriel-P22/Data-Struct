@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:array": "node Arrays/array.js",
     "start:stack": "node Stack/index.js",
-    "start:exercise:array:1": "node Arrays/exercise/array-1.js"
+    "start:exercise:array": "node Arrays/exercise/array-1.js",
+    "start:exercise:stack": "node Stack/exercise/index.js"
   },
   "repository": {
     "type": "git",
