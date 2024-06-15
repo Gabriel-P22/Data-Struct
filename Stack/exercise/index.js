@@ -20,4 +20,4 @@ function Dec2Bin(decNumber) {
    return binaryString;
 }
 
-console.log(Dec2Bin(2))
+console.log(Dec2Bin(23))
