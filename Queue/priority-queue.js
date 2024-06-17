@@ -41,3 +41,48 @@ queue.enqueue("Carlos", 2);
 queue.enqueue("Gabriel", 1);
 queue.enqueue("Anna", 3);
 queue.print();
+
+//ECMAScript 6
+class PQueue {
+    constructor() {
+        this.items = [];
+    }
+
+    enqueue(element, priority) {
+        const item = {element, priority};
+
+        let enqueue = false;
+
+        for (let i = 0; i < this.items.length; i++) {
+            if (item.priority < this.items[i].priority) {
+                this.items.splice(i, 0, item);
+                enqueue = true;
+                break;
+            }
+        }
+
+        if (!enqueue) {
+            this.items.push(item);
+        }
+    }
+
+    dequeue() {
+        return this.items.shift().element;
+    }
+
+    front() {
+        if (this.isEmpty()) {
+            throw new Error("Empty Queue");
+        }
+
+        return this.items[0];
+    }
+
+    isEmpty() {
+        return this.items.length === 0;
+    }
+
+    size() {
+        return this.items.length;
+    }
+}
