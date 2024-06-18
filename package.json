@@ -9,6 +9,7 @@
     "start:stack": "node Stack/index.js",
     "start:queue": "node Queue/index.js",
     "start:linked-list": "node LinkedLists/index.js",
+    "start:doubly-linked-lists": "node DoublyLinkedLists/index.js",
     "start:circle-queue": "node Queue/circle-queue.js",
     "start:queue:priority": "node Queue/priority-queue.js",
     "start:exercise:array": "node Arrays/exercise/array-1.js",
