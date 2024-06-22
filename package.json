@@ -5,10 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
     "start:array": "node Arrays/array.js",
     "start:stack": "node Stack/index.js",
     "start:queue": "node Queue/index.js",
     "start:linked-list": "node LinkedLists/index.js",
+    "start:sets": "node Sets/index.js",
+    "start:sets-es6": "node Sets/sets-with-es6.js",
     "start:doubly-linked-lists": "node DoublyLinkedLists/index.js",
     "start:circle-queue": "node Queue/circle-queue.js",
     "start:queue:priority": "node Queue/priority-queue.js",
