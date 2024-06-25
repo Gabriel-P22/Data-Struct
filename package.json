@@ -10,6 +10,8 @@
     "start:stack": "node Stack/index.js",
     "start:queue": "node Queue/index.js",
     "start:linked-list": "node LinkedLists/index.js",
+    "start:linked-list-ems": "node LinkedLists/ems6.js",
+    "start:challenge": "node LinkedLists/challenge.js",
     "start:sets": "node Sets/index.js",
     "start:sets-es6": "node Sets/sets-with-es6.js",
     "start:doubly-linked-lists": "node DoublyLinkedLists/index.js",
