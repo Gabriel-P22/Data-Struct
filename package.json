@@ -18,10 +18,12 @@
     "start:circle-queue": "node Queue/circle-queue.js",
     "start:queue:priority": "node Queue/priority-queue.js",
     "start:binary-tree": "node BinaryTree/index.js",
-    "start:hash-tables": "node HashTable/index.js",
+    "start:hash-table": "node HashTable/index.js",
+    "start:exercise:hash-table": "node HashTable/exercise/1.js",
     "start:exercise:array": "node Arrays/exercise/array-1.js",
     "start:exercise:stack": "node Stack/exercise/index.js",
-    "start:exercise:base:conversion": "node Stack/exercise/conversion.js"
+    "start:exercise:base:conversion": "node Stack/exercise/conversion.js",
+    "start:ii": "node hash.js"
   },
   "repository": {
     "type": "git",

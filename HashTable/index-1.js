@@ -162,6 +162,7 @@ function DoublyLinkedLists() {
     }
 
 }
+
 function HashTable() {
     var table = [];
     
